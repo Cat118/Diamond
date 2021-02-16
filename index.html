@@ -1,137 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Portfolio v2</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap"
-	 rel="stylesheet">
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Portfolio v2</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="logo">Diamond Butler</div>
+			<nav>
+				<ul id="menu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">Diamond Butler</div>
-            <nav>
-                <ul id="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-    </header>
+		<main>
 
-    <main>
+			<!-- The Introduction -->
+			<section>
+				<div class = "group">
+					<div class = "item">
+						<img src="./2021-02-01_3.png" alt= "Fullstack Developer" class="image-enhanced">
+					</div>
+					<div class = "item">
+						<h1>My name is Diamond Butler; Software Developer</h1>
+						<p>
+							Many software developers will offer you a minimum of six thousand to start the development of your website. 
+							With this money, you are paying a single developer to do the workload.
+						</p>
+						<p>
+							Welcome to my approach. I live in Lake Butler, Florida and I want to provide a variety of services from debugging to complete projects.
+							I am a professional developer who is training to produce high-quality work. I create, update, and even refine!
+						</p>
+					</div>
+				</div>
+			</section>
 
-        <!-- The Introduction -->
-        <section>
-            <div class = "group">
-                <div class = "item">
-                    <img src="../Diamond/2021-02-01 (3).png" alt= "Fullstack Developer" class="image-enhanced">
-                </div>
-                <div class = "item">
-                <h1>My name is Diamond Butler; Software Developer</h1>
-                <p>
-                    Many software developers will offer you a minimum of six thousand to start the development of your website. 
-                    With this money, you are paying a single developer to do the workload.
-                </p>
-                <p>
-                    Welcome to my approach. I live in Lake Butler, Florida and I want to provide a variety of services from debugging to complete projects.
-                    I am a professional developer who is training to produce high-quality work. I create, update, and even refine!
-                </p>
-            </div>
-           </div>
-        </section>
+			<!-- This will cover the about me section -->
+			<section class="dark-background">
+				<h2 id="about">About me:</h2>
+				<div class="group">
+					<div class="item item-double">
+						<p>
+							I have always had a curiosity in coding, having a very high learning ceiling and a strong visible reward that shows my progression is very exciting.
+						</p>
+						<p>
+							Outside of my coding career, I love to train animals, spend time with my own animals and family. I have traveled to India for 40 days and to many states across the USA. I also am very interested in gardening, growing contest winning pumpkins, gaming, art and travel.
+						</p>
+						<ul>
+							<li>Website development</li>
+							<li>Training courses</li>
+							<li>Mobile development</li>
+						</ul>
+					</div> 
+				</div>
+			</section>
 
-    <!-- This will cover the about me section -->
-   
-
-    <section class="dark-background">
-        <h2 id="about">About me:</h2>
-        <div class="group">
-            <div class="item item-double">
-                <p>I have always had a curiosity in coding, having a very high learning ceiling and a 
-                    strong visible reward that shows my progression is very exciting. </p>
-                <p>Outside of my coding career,
-                     I love to train animals, spend time with my own animals and family. I have traveled to India for 40 days and to many states across the USA.
-                     I also am very interested in gardening, growing contest winning pumpkins, gaming, art and travel.</p>
-                     <ul><li>Website development</li><li>Training courses</li><li>Mobile development</li></ul>
-                    </div> 
-        </div>
-    </section>
-
-    <!-- This covers portfolio -->
-    <section>
-        <h2 id="portfolio">
-            Portfolio
-        </h2>
-        <div class="group">
-            <div class="item">
-                <img src="../Diamond/2021-02-12 (6).png" alt = "Library App" class = "rounded">
-                <h3><a href="https://cat118.github.io/project-local-library/">Local Library app</a></h3>
-                <p>
-                    This app was built so that you can see records of books,
-                    what is currently available,
-                    and who might have rented it out currently. I was assigned the backend (JavaScript).
-                </p>
-                    <p><a href="https://github.com/Cat118/project-local-library">Click here for Repo</a></p>
-                
-            </div>
-            <div class="item">
-                <img src="../Diamond/2021-02-12 (4).png" alt="Decoder Ring" class ="rounded">
-                <h3><a href="https://cat118.github.io/decoder-ring/">Decoder Ring</a></h3>
-                <p>
-                    This is an encryption based development that has three encryption sets.
-                    I alone encoded the encryptions through the use of JavaScript. Node.js
-                </p>   
-                    <p><a href="https://github.com/Cat118/decoder-ring">Click here for Repo</a></p>
-                
-            </div>
-            </div>
-    </section>
+			<!-- This covers portfolio -->
+			<section>
+				<h2 id="portfolio">
+					Portfolio
+				</h2>
+				<div class="group">
+					<div class="item">
+						<img src="./2021-02-12_6.png" alt = "Library App" class = "rounded">
+						<h3><a href="https://cat118.github.io/project-local-library/">Local Library app</a></h3>
+						<p>
+								This app was built so that you can see records of books, what is currently available, and who might have rented it out currently. I was assigned the backend (JavaScript).
+						</p>
+						<p><a href="https://github.com/Cat118/project-local-library">Click here for Repo</a></p>
+					</div>
+					<div class="item">
+						<img src="./2021-02-12_4.png" alt="Decoder Ring" class ="rounded">
+						<h3><a href="https://cat118.github.io/decoder-ring/">Decoder Ring</a></h3>
+						<p>
+							This is an encryption based development that has three encryption sets. I alone encoded the encryptions through the use of JavaScript. Node.js
+						</p>   
+						<p>
+							<a href="https://github.com/Cat118/decoder-ring">Click here for Repo</a>
+						</p>
+					</div>
+				</div>
+			</section>
 
 
-          <!-- Contact -->   
-<section>
-    <h2 id="contact">Contact</h2>
-    <div class="group">
-        <div class="item">
-            <form
-  action="https://formspree.io/f/mnqoyqlr"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+		<!-- Contact -->   
+		<section>
+			<h2 id="contact">Contact</h2>
+			<div class="group">
+				<div class="item">
+					<form action="https://formspree.io/f/mnqoyqlr" method="POST">
+						<label>
+							Your email: <input type="text" name="_replyto">
+						</label>
+						<label>
+							Your message: <textarea name="message"></textarea>
+						</label>
 
-  <!-- your other form fields go here -->
+						<!-- your other form fields go here -->
+						<button type="submit">Send</button>
+					</form>
+				</div>
 
-  <button type="submit">Send</button>
-</form>
-        </div>
-        <div class="item item-double">
-            <p>Phone #: <a href="tel:352-870-2771">352-870-2771</a></p>
-            <p><a href="https://github.com/Cat118" target=”_blank”>GitHub</a> : <a href="https://www.linkedin.com/in/diamond-butler-040899a0/" target=”_blank”>LinkedIn</a></p>
-  <p>Email: <a href="mailto:lilbrowayne@gmail.com?subject=You%20are%20hired!!">lilbrowayne@gmail.com</a></p>
-  <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27637.104362742182!2d-82.35535257747766!3d30.01854789105174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ef53d041854cbb%3A0xa442cf26646ae64c!2sLake%20Butler%2C%20FL%2032054!5e0!3m2!1sen!2sus!4v1612538620984!5m2!1sen!2sus"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
-</div>
-</div>
-</section>
-</main>
-
-        <footer>
-            @Diamond Butler
-        </footer>
-</body>
+				<div class="item item-double">
+					<p>Phone #: <a href="tel:352-870-2771">352-870-2771</a></p>
+					<p><a href="https://github.com/Cat118" target=”_blank”>GitHub</a> : <a href="https://www.linkedin.com/in/diamond-butler-040899a0/" target=”_blank”>LinkedIn</a></p>
+					<p>Email: <a href="mailto:lilbrowayne@gmail.com?subject=You%20are%20hired!!">lilbrowayne@gmail.com</a></p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27637.104362742182!2d-82.35535257747766!3d30.01854789105174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ef53d041854cbb%3A0xa442cf26646ae64c!2sLake%20Butler%2C%20FL%2032054!5e0!3m2!1sen!2sus!4v1612538620984!5m2!1sen!2sus" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</section>
+		</main>
+		<footer>
+				@Diamond Butler
+		</footer>
+	</body>
 </html> 
