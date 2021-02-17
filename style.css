@@ -87,7 +87,7 @@ section.dark-background {
 }
 
 footer {
-    background-color: yellow;
+    background-color: darkred;
     background-image: url();
     margin-top: 40px;
     margin-bottom: 0;
@@ -130,7 +130,7 @@ a:hover {
 }
 
 footer p {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
 }
